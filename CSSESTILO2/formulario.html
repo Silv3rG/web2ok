@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+<head>
+    <title>Cosmin Iulian Babarici</title>
+    <link rel="stylesheet" type="text/css" href="estilo2.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="estilo2.css" />-->
+</head>
+
+<body>
+    <h1 class="resaltar">FORMULARIO </h1>
+    <hr/>
+    <h4>Es necesario rellenar todos los campos del formulario que tengan el simbolo *</h4>
+    <form action="miscomponentesnosirven.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend class="resaltar"> <strong>Datos usuario</strong> </legend>
+            <label for="nombre"> *Nombre usuario</label>
+            <br/>
+            <input type="text" name="nombre" id="nombre" size="40" />
+            <br/>
+            <label for="contraseña">  *Contraseña</label>
+            <br/>
+            <input type="password" name="contraseña" id="contraseña" size="40" />
+            <br/>
+            <label for="mail">  *E-mail</label>
+            <br/>
+            <input type="text" name="mail" id="mail" size="40" />
+            <br/> Cual es tu nivel de conocimientos sobre los componentes de un ordenador?
+            <br/>
+            <input type="radio" name="nivel" value="bajo" /> Bajo
+            <br/>
+            <input type="radio" name="nivel" value="medio" /> Medio
+            <br/>
+            <input type="radio" name="nivel" value="alto" /> Alto
+            <br/>
+            <br/>
+            <label for="Dinero"> Cuanto te has gastado en tu ordenador de casa? </label>
+            <br/>
+            <select id="Dinero" name="Dinero">
+      <option value="menos500"> Menos de 500€ </option>
+       <option value="500y1000"> Entre 500€ y 1000€</option>
+       <option value="500y1000"> Entre 500€ y 1000€</option>
+       <option value="1000y1500"> Entre 1000€ y 1500€</option>
+       <option value="1500y2000"> Entre 1500€ y 2000€</option>
+       <option value="mas2000"> Más de 2000€</option>
+     </select>
+            <br/>
+            <br/>
+            <label for="mensaje"> *Mensaje adicional </label>
+            <br/>
+            <textarea name="mensaje" id="mensaje" cols="50" rows="10"></textarea>
+            <br/> Fichero adjunto
+            <input type="file" name="adjunto" />
+            <br/> <br/>
+            <input name="suscribirse" type="checkbox" value="suscripción" checked="checked" /> Suscribirse a la página para recibir nuevas noticias
+            <br/> <br/>
+            <input type="submit" value="Enviar" /> <input type="reset" value="Borrar" />
+            <br/> <br/>
+            <a href="CosminIulianBabariciXHTML.html">
+    Click aquí para volver a la página inicial
+    </a>
+        </fieldset>
+    </form>
+
+    <p>
+        <br/>
+        <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+    </p>
+
+</body>
+
+</html>
